@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg_gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#005238" />
+      <stop offset="45%" stopColor="#006948" />
+      <stop offset="100%" stopColor="#009968" />
+    </linearGradient>
+    <linearGradient id="pulse_gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#006948" />
+      <stop offset="100%" stopColor="#004d35" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background container with smooth rounded corners -->
+  <rect width="512" height="512" rx="120" fill="url(#bg_gradient)" />
+  <rect x="12" y="12" width="488" height="488" rx="108" fill="none" stroke="#85f8c4" stroke-width="6" opacity="0.25" />
+
+  <!-- Modern Medical Cross in pure crisp white -->
+  <g fill="#ffffff">
+    <rect x="206" y="96" width="100" height="320" rx="36" />
+    <rect x="96" y="206" width="320" height="100" rx="36" />
+  </g>
+
+  <!-- Center Vital Pulse Circle in glowing emerald/mint -->
+  <circle cx="256" cy="256" r="54" fill="#85f8c4" />
+  
+  <!-- Electrocardiogram vital pulse path in the heart of the cross -->
+  <path d="M150 256 H216 L236 210 L260 298 L284 238 L298 256 H362" 
+        fill="none" 
+        stroke="url(#pulse_gradient)" 
+        stroke-width="18" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" />
+
+  <!-- Small energetic dot -->
+  <circle cx="256" cy="256" r="10" fill="#006948" />
+</svg>
