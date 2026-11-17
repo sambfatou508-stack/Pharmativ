@@ -171,7 +171,7 @@ export const UrgencesScreen: React.FC = () => {
               </a>
 
               <a
-                href="https://www.google.com/maps/search/?api=1&query=Hopital+Mame+Abdou+Aziz+Sy+Dabakh+Tivaouane"
+                href="https://www.google.com/maps/dir/?api=1&destination=14.9766875,-16.7750625"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto flex items-center justify-center gap-2 py-3 px-5 rounded-2xl bg-[#eaedff] text-[#006948] font-bold text-sm hover:bg-[#dae2fd] active:scale-95 transition-all text-center"
@@ -186,7 +186,7 @@ export const UrgencesScreen: React.FC = () => {
           <div className="lg:col-span-5 relative min-h-[260px] lg:min-h-full bg-gray-100">
             <img
               src={HOSPITAL_DABAKH.imageUrl}
-              alt="Hôpital Mame Abdou Aziz Sy Dabakh"
+              alt={HOSPITAL_DABAKH.name}
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover"
             />

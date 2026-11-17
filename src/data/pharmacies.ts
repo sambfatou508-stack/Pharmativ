@@ -426,14 +426,14 @@ export const EMERGENCY_SERVICES: EmergencyContact[] = [
 ];
 
 export const HOSPITAL_DABAKH = {
-  name: 'Centre Hospitalier Régional Mame Abdou Aziz Sy Dabakh',
+  name: 'Hôpital El Hadji Malick Sy de Tivaouane',
   grade: 'Établissement Public de Santé Niveau 2',
   role: 'Service Référent Garde & Réanimation',
   description:
-    'Hôpital régional de référence situé à l’entrée de la Ville Sainte. Service d’accueil des urgences (SAU) entièrement opérationnel jour et nuit avec plateau médico-technique moderne.',
+    'Hôpital régional de référence à Tivaouane. Service d’accueil des urgences (SAU) entièrement opérationnel jour et nuit avec plateau médico-technique moderne.',
   phone: '+221339551122',
   phoneDisplay: '33 955 11 22',
-  location: 'Route Nationale 2, Entrée Tivaouane',
+  location: 'X6GF+MX, Tivaouane',
   capacityStatus: 'Fluide',
   capacityPercentage: 38,
   capacityDetails: 'Garde chirurgicale d’astreinte validée • Échographie & Radiologie active cette nuit.',
@@ -442,7 +442,7 @@ export const HOSPITAL_DABAKH = {
     { title: 'Maternité & Néonat', desc: 'Bloc d’urgence obstétricale', icon: 'child_care', color: 'text-secondary' },
     { title: 'Banque de Sang', desc: 'Labo d’analyses continu', icon: 'bloodtype', color: 'text-error' },
   ],
-  imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCoGjj79JLXmAbJJvlgcbCilH1im-mVCgA5DHzh3fy1j5a85VYCCbyI1X6GmYqN3n4s86SZQDg5LjAroYFywcy6EDAPN7o1sdh4ApjiqgYhJVzV4F3R1zBsXqsA9HyGpi-1P9ev2uja-xfBu8p1yZYpBGX51KVkLxRU-hFLSI_7TXk1hDRWmQkImgdxtpLjTaREoxyuZ08btwmCzc-NkaDP_u4YvOIB0VeI1_jSoZHIihGbQJyJaLo',
+  imageUrl: 'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R43EdTbQ-dJsMnw2mteNrlm26LNzqGy_8q6Jq4We1Vw7XqEdEz8hZVypdS2SkuYc67kV7Lw3BA3ljM-qh-zwuSMUMWCEvIi9Xh11mwWdnIJJ59NiB1mTX2AmZsVQNBMhoda_TRmYV0RKE=w1080-h600-k-no',
 };
 
 export const HEALTH_CENTERS: HealthCenter[] = [
